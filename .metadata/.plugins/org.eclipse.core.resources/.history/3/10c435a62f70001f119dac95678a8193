@@ -1,0 +1,5 @@
+package com.yash.repo;
+
+public interface CourseRepository {
+
+}

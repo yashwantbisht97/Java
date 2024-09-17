@@ -1,0 +1,6 @@
+com\yash\rest\TicketRestController.class
+com\yash\binding\Passanger.class
+com\yash\service\TicketServiceImpl.class
+com\yash\service\TicketService.class
+com\yash\SpringRestRailTicketApplication.class
+com\yash\binding\Ticket.class

@@ -1,0 +1,24 @@
+package com.yash.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.yash.binding.Passanger;
+import com.yash.binding.Ticket;
+@Service
+public class TicketServiceImpl implements TicketService {
+
+	@Override
+	public Ticket bookTicket(Passanger p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Ticket> getAllTickets() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

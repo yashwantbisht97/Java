@@ -1,0 +1,12 @@
+package com.yash.service;
+
+import java.util.List;
+
+import com.yash.binding.Passanger;
+import com.yash.binding.Ticket;
+
+public class TicketService {
+public Ticket bookTicket(Passanger p);
+public List<Ticket> getAllTickets();
+	
+}
