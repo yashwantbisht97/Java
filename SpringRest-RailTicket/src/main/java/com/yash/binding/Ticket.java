@@ -1,7 +1,9 @@
 package com.yash.binding;
 
+import java.util.UUID;
+
 public class Ticket {
-	private Integer TicketNum;
+	private UUID ticketId;
 	private String name;
 	private String email;
 	private String to;
@@ -10,11 +12,11 @@ public class Ticket {
 	private String trainNum;
 	private String status;
 	
-	public Integer getTicketNum() {
-		return TicketNum;
+	public UUID getTicketId() {
+		return ticketId;
 	}
-	public void setTicketNum(Integer ticketNum) {
-		TicketNum = ticketNum;
+	public void setTicketId(UUID id) {
+		this.ticketId = id;
 	}
 	public String getName() {
 		return name;
